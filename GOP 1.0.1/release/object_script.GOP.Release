@@ -1,0 +1,17 @@
+release/attackwidget.o
+release/big_class.o
+release/endgamewidget.o
+release/gamewindow.o
+release/main.o
+release/mainwidget.o
+release/mousepos.o
+release/movewidget.o
+release/tpwidget.o
+release/qrc_res.o
+release/moc_attackwidget.o
+release/moc_endgamewidget.o
+release/moc_gamewindow.o
+release/moc_mainwidget.o
+release/moc_mousepos.o
+release/moc_movewidget.o
+release/moc_tpwidget.o

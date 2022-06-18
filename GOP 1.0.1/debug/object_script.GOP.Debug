@@ -1,0 +1,17 @@
+debug/attackwidget.o
+debug/big_class.o
+debug/endgamewidget.o
+debug/gamewindow.o
+debug/main.o
+debug/mainwidget.o
+debug/mousepos.o
+debug/movewidget.o
+debug/tpwidget.o
+debug/qrc_res.o
+debug/moc_attackwidget.o
+debug/moc_endgamewidget.o
+debug/moc_gamewindow.o
+debug/moc_mainwidget.o
+debug/moc_mousepos.o
+debug/moc_movewidget.o
+debug/moc_tpwidget.o

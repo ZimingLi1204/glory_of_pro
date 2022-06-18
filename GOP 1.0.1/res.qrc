@@ -1,0 +1,78 @@
+<RCC>
+    <qresource prefix="/map">
+        <file>map.png</file>
+        <file>set_050.png</file>
+        <file>map450_450.png</file>
+    </qresource>
+    <qresource prefix="/character1/idle">
+        <file>hero120001/idle/frame0.png</file>
+        <file>hero120001/idle/frame1.png</file>
+        <file>hero120001/idle/frame2.png</file>
+        <file>hero120001/idle/frame3.png</file>
+        <file>hero120001/idle/frame4.png</file>
+        <file>hero120001/idle/frame5.png</file>
+        <file>hero120001/idle/frame6.png</file>
+        <file>hero120001/idle/frame7.png</file>
+        <file>hero120001/idle/frame8.png</file>
+        <file>hero120001/idle/frame0central.png</file>
+    </qresource>
+    <qresource prefix="/character2/idle">
+        <file>hero120004/idle/frame0.png</file>
+        <file>hero120004/idle/frame1.png</file>
+        <file>hero120004/idle/frame2.png</file>
+        <file>hero120004/idle/frame3.png</file>
+        <file>hero120004/idle/frame4.png</file>
+        <file>hero120004/idle/frame5.png</file>
+        <file>hero120004/idle/frame6.png</file>
+        <file>hero120004/idle/frame7.png</file>
+        <file>hero120004/idle/frame8.png</file>
+        <file>hero40004/idle/frame0.png</file>
+        <file>hero40004/idle/frame1.png</file>
+        <file>hero40004/idle/frame2.png</file>
+        <file>hero40004/idle/frame3.png</file>
+        <file>hero40004/idle/frame4.png</file>
+        <file>hero40004/idle/frame5.png</file>
+        <file>hero40004/idle/frame6.png</file>
+        <file>hero40004/idle/frame7.png</file>
+        <file>hero40004/idle/frame8.png</file>
+        <file>hero40004/idle/frame0central.png</file>
+    </qresource>
+    <qresource prefix="/character3/idle">
+        <file>hero120008/idle/frame0.png</file>
+        <file>hero120008/idle/frame1.png</file>
+        <file>hero120008/idle/frame2.png</file>
+        <file>hero120008/idle/frame3.png</file>
+        <file>hero120008/idle/frame4.png</file>
+        <file>hero120008/idle/frame5.png</file>
+        <file>hero120008/idle/frame6.png</file>
+        <file>hero120008/idle/frame7.png</file>
+        <file>hero120008/idle/frame8.png</file>
+        <file>hero120008/idle/frame0central.png</file>
+    </qresource>
+    <qresource prefix="/character4/idle">
+        <file>hero120009/idle/frame0.png</file>
+        <file>hero120009/idle/frame1.png</file>
+        <file>hero120009/idle/frame2.png</file>
+        <file>hero120009/idle/frame3.png</file>
+        <file>hero120009/idle/frame4.png</file>
+        <file>hero120009/idle/frame5.png</file>
+        <file>hero120009/idle/frame6.png</file>
+        <file>hero120009/idle/frame7.png</file>
+        <file>hero120009/idle/frame8.png</file>
+        <file>hero120009/idle/frame9.png</file>
+        <file>hero120009/idle/frame10.png</file>
+        <file>hero120009/idle/frame11.png</file>
+        <file>hero120009/idle/frame12.png</file>
+        <file>hero120009/idle/frame13.png</file>
+        <file>hero120009/idle/frame14.png</file>
+        <file>hero120009/idle/frame0central.png</file>
+    </qresource>
+    <qresource prefix="/shop"/>
+    <qresource prefix="/buy">
+        <file>Shop/shop1.png</file>
+        <file>Shop/shop2.png</file>
+        <file>Shop/shop3.png</file>
+        <file>Shop/shop4.png</file>
+        <file>Shop/shop5.png</file>
+    </qresource>
+</RCC>
