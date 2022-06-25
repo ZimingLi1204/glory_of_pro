@@ -306,7 +306,7 @@
     <widget class="QLabel" name="num_tp_0">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -623,7 +623,7 @@
     <widget class="QLabel" name="num_tp_1">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -940,7 +940,7 @@
     <widget class="QLabel" name="num_tp_2">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -1257,7 +1257,7 @@
     <widget class="QLabel" name="num_tp_3">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>

@@ -203,7 +203,7 @@ public:
         lv_wing_0->setFont(font);
         num_tp_0 = new QLabel(playerInfo_0);
         num_tp_0->setObjectName(QString::fromUtf8("num_tp_0"));
-        num_tp_0->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_0->setGeometry(QRect(180, 70, 50, 30));
         num_tp_0->setFont(font);
         home_0 = new QLabel(playerInfo_0);
         home_0->setObjectName(QString::fromUtf8("home_0"));
@@ -270,7 +270,7 @@ public:
         lv_wing_1->setFont(font);
         num_tp_1 = new QLabel(playerInfo_1);
         num_tp_1->setObjectName(QString::fromUtf8("num_tp_1"));
-        num_tp_1->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_1->setGeometry(QRect(180, 70, 50, 30));
         num_tp_1->setFont(font);
         home_1 = new QLabel(playerInfo_1);
         home_1->setObjectName(QString::fromUtf8("home_1"));
@@ -337,7 +337,7 @@ public:
         lv_wing_2->setFont(font);
         num_tp_2 = new QLabel(playerInfo_2);
         num_tp_2->setObjectName(QString::fromUtf8("num_tp_2"));
-        num_tp_2->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_2->setGeometry(QRect(180, 70, 50, 30));
         num_tp_2->setFont(font);
         home_2 = new QLabel(playerInfo_2);
         home_2->setObjectName(QString::fromUtf8("home_2"));
@@ -404,7 +404,7 @@ public:
         lv_wing_3->setFont(font);
         num_tp_3 = new QLabel(playerInfo_3);
         num_tp_3->setObjectName(QString::fromUtf8("num_tp_3"));
-        num_tp_3->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_3->setGeometry(QRect(180, 70, 50, 30));
         num_tp_3->setFont(font);
         home_3 = new QLabel(playerInfo_3);
         home_3->setObjectName(QString::fromUtf8("home_3"));

@@ -18,7 +18,6 @@ GameWindow::GameWindow(QWidget *parent) :
     ui->setupUi(this);
     //控制台
     qInstallMessageHandler(logOutput);
-    ui->hp_0->setText("4/5");
 
     for(int i = 0; i < 4; ++i) {
         player_image[i] = new QLabel(ui -> main);
@@ -72,17 +71,49 @@ GameWindow::GameWindow(QWidget *parent) :
         ui -> attack -> setEnabled(true);
         ui -> tp -> setEnabled(true);
         ui -> move -> setEnabled(true);
+        player_move_image[currPlayer] -> hide();
         refresh();
     });
     //每个移动按钮对应槽函数
     for(int i = 1; i <= 5; ++i) {
         for (int j = 1; j <= 5; ++j) {
             connect(moveto[i][j], &QPushButton::clicked, [=](){
-
+                if (i == 2 && j == 2) {
+                    if (bd.hm[0].master == -1) {
+                        bd.hm[0].master = currPlayer;
+                    }
+                    else if (bd.pl[bd.hm[0].master].pos[0] != i || bd.pl[bd.hm[0].master].pos[1] != j) {
+                        bd.hm[0].master = currPlayer;
+                    }
+                }
+                if (i == 4 && j == 2) {
+                    if (bd.hm[1].master == -1) {
+                        bd.hm[1].master = currPlayer;
+                    }
+                    else if (bd.pl[bd.hm[1].master].pos[0] != i || bd.pl[bd.hm[1].master].pos[1] != j) {
+                        bd.hm[1].master = currPlayer;
+                    }
+                }
+                if (i == 4 && j == 4) {
+                    if (bd.hm[2].master == -1) {
+                        bd.hm[2].master = currPlayer;
+                    }
+                    else if (bd.pl[bd.hm[2].master].pos[0] != i || bd.pl[bd.hm[2].master].pos[1] != j) {
+                        bd.hm[2].master = currPlayer;
+                    }
+                }
+                if (i == 2 && j == 4) {
+                    if (bd.hm[3].master == -1) {
+                        bd.hm[3].master = currPlayer;
+                    }
+                    else if (bd.pl[bd.hm[3].master].pos[0] != i || bd.pl[bd.hm[3].master].pos[1] != j) {
+                        bd.hm[3].master = currPlayer;
+                    }
+                }
                 bd.pl[currPlayer].pos[0] = i;
                 bd.pl[currPlayer].pos[1] = j;
                 updatePlayerInfo();
-                qDebug()<< (char) ('A' + currPlayer) << " moved to " << i << ' ' << j;
+                qDebug()<< (char) ('A' + currPlayer) << " moved to " << i << ' ' << j << "\n";
                 on_lineEdit_textChanged();
                 player_move_image[currPlayer] -> move(coordinate[bd.pl[currPlayer].pos[1] - 1], coordinate[bd.pl[currPlayer].pos[0] - 1]);
                 player_image[currPlayer] -> move(coordinate[bd.pl[currPlayer].pos[1] - 1], coordinate[bd.pl[currPlayer].pos[0] - 1]);
@@ -144,7 +175,7 @@ GameWindow::GameWindow(QWidget *parent) :
                         buy_happen = true;
                         updatePlayerInfo();
 
-                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "等级为" << lev+1;
+                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "等级为" << lev+1 << "\n";
                         on_lineEdit_textChanged();
                     }
                     else {
@@ -157,7 +188,7 @@ GameWindow::GameWindow(QWidget *parent) :
                         buy_happen = true;
                         updatePlayerInfo();
 
-                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i];
+                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "\n";
                         on_lineEdit_textChanged();
                     }
                     else {
@@ -173,7 +204,7 @@ GameWindow::GameWindow(QWidget *parent) :
                         buy_happen = true;
                         updatePlayerInfo();
 
-                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "等级为" << lev+1;
+                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "等级为" << lev+1 << "\n";
                         on_lineEdit_textChanged();
                     }
                     else {
@@ -187,7 +218,7 @@ GameWindow::GameWindow(QWidget *parent) :
                         buy_happen = true;
                         updatePlayerInfo();
 
-                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i];
+                        qDebug()<< "玩家 " << currPlayer << "购买了" << namelist[i] << "\n";
                         on_lineEdit_textChanged();
                     }
                     else {
@@ -287,6 +318,7 @@ GameWindow::GameWindow(QWidget *parent) :
                 else {
                     player_image[i] -> hide();
                     player_move_image[i] -> hide();
+                    currPlayerNum[i] = 0;
                 }
             }
             if (survivor_num == 1) {
@@ -432,7 +464,7 @@ void GameWindow::refresh() {
 
 void GameWindow::setPlayerNum(int numQWQ) {
     bd = board(numQWQ);
-    qDebug()<< "共有" << bd.player_num << "人进行游玩";
+    qDebug()<< "共有" << bd.player_num << "人进行游玩" << "\n";
     on_lineEdit_textChanged();
     switch(bd.player_num) {
         case 2: player_image[2] -> hide();
@@ -467,7 +499,7 @@ void GameWindow::switchToNextPlayer() {
         if (currPlayerNum[i] == 1) {
             currPlayer = i;
             ui->currPlayer->setText(QString::fromStdString(playerName[currPlayer]));
-            qDebug()<< "我的回合，抽卡！";
+            qDebug()<< "我的回合，抽卡！"<<"\n";
             on_lineEdit_textChanged();
             ui -> buy -> setEnabled(true);
             ui -> mine -> setEnabled(true);
@@ -493,14 +525,14 @@ void GameWindow::mineSlot() {
     //on_lineEdit_textChanged();
     // 当前不在mine
     if (name_all[bd.pl[currPlayer].pos[0]][bd.pl[currPlayer].pos[1]] != "mi") {
-        qDebug()<< "you can't mine here";
+        qDebug()<< "you can't mine here"<<"\n";
         on_lineEdit_textChanged();
     }
     //当前位于mine
     else {
         bd.pl[currPlayer].money++;
         currPlayerNum[currPlayer] = 0;
-        qDebug()<< "you get 1 coin";
+        qDebug()<< "you get 1 coin"<<"\n";
         on_lineEdit_textChanged();
         updatePlayerInfo();
         // 判断是否结束当前回合
@@ -518,27 +550,27 @@ void GameWindow::healSlot() {
     //on_lineEdit_textChanged();
     //当前不在家
     if (name_all[bd.pl[currPlayer].pos[0]][bd.pl[currPlayer].pos[1]] != "ho") {
-        qDebug()<< "you can't heal here";
+        qDebug()<< "you can't heal here" << "\n";
         on_lineEdit_textChanged();
     }
     else {
         if (bd.pl[currPlayer].pos[0] == 2 && bd.pl[currPlayer].pos[1] == 2 && bd.hm[0].master != currPlayer) {
-            qDebug()<< "you can't heal here";
+            qDebug()<< "you can't heal here" << "\n";
             on_lineEdit_textChanged();
             return;
         }
         if (bd.pl[currPlayer].pos[0] == 4 && bd.pl[currPlayer].pos[1] == 2 && bd.hm[1].master != currPlayer) {
-            qDebug()<< "you can't heal here";
+            qDebug()<< "you can't heal here" << "\n";
             on_lineEdit_textChanged();
             return;
         }
         if (bd.pl[currPlayer].pos[0] == 4 && bd.pl[currPlayer].pos[1] == 4 && bd.hm[2].master != currPlayer) {
-            qDebug()<< "you can't heal here";
+            qDebug()<< "you can't heal here" << "\n";
             on_lineEdit_textChanged();
             return;
         }
         if (bd.pl[currPlayer].pos[0] == 2 && bd.pl[currPlayer].pos[1] == 4 && bd.hm[3].master != currPlayer) {
-            qDebug()<< "you can't heal here";
+            qDebug()<< "you can't heal here" << "\n";
             on_lineEdit_textChanged();
             return;
         }
@@ -548,7 +580,7 @@ void GameWindow::healSlot() {
             bd.pl[currPlayer].hp++;
             updatePlayerInfo();
             currPlayerNum[currPlayer] = 0;
-            qDebug()<< "you get 1 blood";
+            qDebug()<< "you get 1 blood" << "\n";
             on_lineEdit_textChanged();
             // 判断是否结束当前回合
             if (judgeToEndRoll()) {
@@ -559,7 +591,7 @@ void GameWindow::healSlot() {
             }
         }
         else {
-            qDebug()<< "you have too much hp!";
+            qDebug()<< "you have too much blood!" << "\n";
             on_lineEdit_textChanged();
         }
     }
@@ -569,12 +601,12 @@ void GameWindow::tpSlot() {
     //qDebug()<< "tpSlot called";
     //on_lineEdit_textChanged();
     if (bd.pl[currPlayer].check_tp_num() == 0) {
-        qDebug()<< "you have no tp";
+        qDebug()<< "you have no tp" << "\n";
         on_lineEdit_textChanged();
         return;
     }
     if (bd.hm[0].master != currPlayer && bd.hm[1].master != currPlayer && bd.hm[2].master != currPlayer && bd.hm[3].master != currPlayer) {
-        qDebug()<< "you have no home...";
+        qDebug()<< "you have no home..." << "\n";
         on_lineEdit_textChanged();
         return;
     }
@@ -592,7 +624,7 @@ void GameWindow::tpSlot() {
 }
 
 void GameWindow::tpTo_hm_0() {
-    qDebug()<< "tp to home 0";
+    qDebug()<< "tp to home 0" << "\n";
     on_lineEdit_textChanged();
     player_move_image[currPlayer] -> move(coordinate[1], coordinate[1]);
     player_image[currPlayer] -> move(coordinate[1], coordinate[1]);
@@ -610,7 +642,7 @@ void GameWindow::tpTo_hm_0() {
     }
 }
 void GameWindow::tpTo_hm_1() {
-    qDebug()<< "tp to home 1";
+    qDebug()<< "tp to home 1" << "\n";
     on_lineEdit_textChanged();
     player_move_image[currPlayer] -> move(coordinate[1], coordinate[3]);
     player_image[currPlayer] -> move(coordinate[1], coordinate[3]);
@@ -628,7 +660,7 @@ void GameWindow::tpTo_hm_1() {
     }
 }
 void GameWindow::tpTo_hm_2() {
-    qDebug()<< "tp to home 2";
+    qDebug()<< "tp to home 2" << "\n";
     on_lineEdit_textChanged();
     player_move_image[currPlayer] -> move(coordinate[3], coordinate[3]);
     player_image[currPlayer] -> move(coordinate[3], coordinate[3]);
@@ -646,7 +678,7 @@ void GameWindow::tpTo_hm_2() {
     }
 }
 void GameWindow::tpTo_hm_3() {
-    qDebug()<< "tp to home 3";
+    qDebug()<< "tp to home 3" << "\n";
     on_lineEdit_textChanged();
     player_move_image[currPlayer] -> move(coordinate[3], coordinate[1]);
     player_image[currPlayer] -> move(coordinate[3], coordinate[1]);
@@ -666,7 +698,7 @@ void GameWindow::tpTo_hm_3() {
 
 void GameWindow::startANewRoll() {
 
-    qDebug()<< "新的回合！";
+    qDebug()<< "新的回合！" << "\n";
     on_lineEdit_textChanged();
     int max_num = 0; // 最大的骰子号
     int t[4];
@@ -686,6 +718,8 @@ void GameWindow::startANewRoll() {
             on_lineEdit_textChanged();
         }
     }
+    qDebug() << "\n";
+    on_lineEdit_textChanged();
     for (int i = 0; i < bd.player_num; i++){
         move[i] = (t[i] == max_num);
         if (move[i] && bd.pl[i].isAlive) {
@@ -703,7 +737,7 @@ void GameWindow::startANewRoll() {
             break;
         }
     }
-    qDebug()<< "can take action ";
+    qDebug()<< "can take action " << "\n";
     on_lineEdit_textChanged();
     ui->currPlayer->setText(QString::fromStdString(playerName[currPlayer]));
     //ui->textBrowser->setText("偷着乐对不队？");
@@ -722,7 +756,7 @@ string GameWindow::homeString(int checkedPlayer) {
 
 void GameWindow::updatePlayerInfo() {
     //player0
-    ui->hp_0->setText(QString::number(bd.pl[0].hp));
+    ui->hp_0->setText(QString::number(bd.pl[0].hp)+"/"+QString::number(bd.pl[0].hpFloor));
     ui->lv_fist_0->setText("0.5");
     ui->lv_sword_0->setText(QString::number(bd.pl[0].checkLevel(1)));
     ui->lv_gun_0->setText(QString::number(bd.pl[0].checkLevel(2)));
@@ -731,7 +765,7 @@ void GameWindow::updatePlayerInfo() {
     ui->money_0->setText(QString::number(bd.pl[0].money));
     ui->home_0->setText(QString::fromStdString(homeString(0)));
     //player1
-    ui->hp_1->setText(QString::number(bd.pl[1].hp));
+    ui->hp_1->setText(QString::number(bd.pl[1].hp)+"/"+QString::number(bd.pl[1].hpFloor));
     ui->lv_fist_1->setText("0.5");
     ui->lv_sword_1->setText(QString::number(bd.pl[1].checkLevel(1)));
     ui->lv_gun_1->setText(QString::number(bd.pl[1].checkLevel(2)));
@@ -741,7 +775,7 @@ void GameWindow::updatePlayerInfo() {
     ui->home_1->setText(QString::fromStdString(homeString(1)));
     //player2
     if (bd.player_num >= 3) {
-        ui->hp_2->setText(QString::number(bd.pl[2].hp));
+        ui->hp_2->setText(QString::number(bd.pl[2].hp)+"/"+QString::number(bd.pl[2].hpFloor));
         ui->lv_fist_2->setText("0.5");
         ui->lv_sword_2->setText(QString::number(bd.pl[2].checkLevel(1)));
         ui->lv_gun_2->setText(QString::number(bd.pl[2].checkLevel(2)));
@@ -750,9 +784,19 @@ void GameWindow::updatePlayerInfo() {
         ui->money_2->setText(QString::number(bd.pl[2].money));
         ui->home_2->setText(QString::fromStdString(homeString(2)));
     }
+    else {
+        ui->hp_2->setText("0/5");
+        ui->lv_fist_2->setText("0.5");
+        ui->lv_sword_2->setText(QString::number(0));
+        ui->lv_gun_2->setText(QString::number(0));
+        ui->lv_wing_2->setText(QString::number(0));
+        ui->num_tp_2->setText(QString::number(0));
+        ui->money_2->setText(QString::number(0));
+        ui->home_2->setText("");
+    }
     //player3
     if (bd.player_num == 4) {
-        ui->hp_3->setText(QString::number(bd.pl[3].hp));
+        ui->hp_3->setText(QString::number(bd.pl[3].hp)+"/"+QString::number(bd.pl[3].hpFloor));
         ui->lv_fist_3->setText("0.5");
         ui->lv_sword_3->setText(QString::number(bd.pl[3].checkLevel(1)));
         ui->lv_gun_3->setText(QString::number(bd.pl[3].checkLevel(2)));
@@ -760,6 +804,16 @@ void GameWindow::updatePlayerInfo() {
         ui->num_tp_3->setText(QString::number(bd.pl[3].check_tp_num()));
         ui->money_3->setText(QString::number(bd.pl[3].money));
         ui->home_3->setText(QString::fromStdString(homeString(3)));
+    }
+    else {
+        ui->hp_3->setText("0/5");
+        ui->lv_fist_3->setText("0.5");
+        ui->lv_sword_3->setText(QString::number(0));
+        ui->lv_gun_3->setText(QString::number(0));
+        ui->lv_wing_3->setText(QString::number(0));
+        ui->num_tp_3->setText(QString::number(0));
+        ui->money_3->setText(QString::number(0));
+        ui->home_3->setText("");
     }
 
 }
@@ -774,7 +828,7 @@ void GameWindow::on_lineEdit_textChanged()
 {
     //qDebug() << arg1;
     ui->textBrowser->setText(text);
-    text.append("\n");
+    //text.append("\n");
     ui -> textBrowser -> moveCursor(QTextCursor::End);
 }
 
