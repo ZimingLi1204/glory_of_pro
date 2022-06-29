@@ -318,7 +318,8 @@ public:
     int player_num;
     // 轮次数
     int round;
-
+    bool cin_action();
+    bool judge_end();
     // 初始化
     board(int player) :bs (3, 3){
         type.insert(make_pair("fist", 0));

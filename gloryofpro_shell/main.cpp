@@ -4,19 +4,19 @@
 #include "big_class.hpp"
 using namespace std;
 
-bool cin_action(board & bd){
+bool board::cin_action(){
     int x, y, max_num = 0;
     int t[4] ={0};
     bool move[4] = {0};
-    for(int i = 0; i < bd.player_num; i++){
-        if (bd.pl[i].isAlive){
+    for(int i = 0; i < player_num; i++){
+        if (pl[i].isAlive){
             t[i] = Dice(1).result;
             max_num = max(max_num, t[i]);
             cout << (char)('A' + i) << ":" << t[i] << " ";   
         }
     }
     cout << endl;
-    for (int i = 0; i < bd.player_num; i++){
+    for (int i = 0; i < player_num; i++){
         move[i] = (t[i] == max_num);
         if (move[i])
             cout << (char)('A' + i) << ",";   
@@ -24,10 +24,10 @@ bool cin_action(board & bd){
     cout << "can take action " << endl;
     cout << "input action" << endl;
     //move , buy, attack, recover, gohome, save_board
-    for (int i = 0; i < bd.player_num; i++){
-        if (!move[i] || !bd.pl[i].isAlive)
+    for (int i = 0; i < player_num; i++){
+        if (!move[i] || !pl[i].isAlive)
             continue;
-        player & p = bd.pl[i];
+        player & p = pl[i];
         cout << (char)('A' + i) << " :";
         //在qt里面输出状态最好改成一直出现, 不断更新的那种状态, 显示money, hp, weapon
         string action;
@@ -52,21 +52,21 @@ bool cin_action(board & bd){
             bool flag = 0; int home_num = 0;
             if (name_all[x][y] == "ho"){
                 for (int j = 0; j < 4; j++){ // find which home
-                    if (bd.hm[j].pos[0] == x && bd.hm[j].pos[1] == y){
+                    if (hm[j].pos[0] == x && hm[j].pos[1] == y){
                         home_num = j;
                         break;
                     }
                 }
-                home & hm = bd.hm[home_num];
-                if (hm.master != i){
+                home & hme = hm[home_num];
+                if (hme.master != i){
                     for (int j = 0; j < 4; j++){//find if person in home
                         if (j == i)
                             continue;
-                        if(bd.pl[j].pos[0] == x && bd.pl[j].pos[1] == y)
+                        if(pl[j].pos[0] == x && pl[j].pos[1] == y)
                             flag = true;
                     }
                     if (!flag){ //home 没人                
-                        hm.master = i;
+                        hme.master = i;
                         cout << (char)('A' + i) << " invade home" << home_num << endl; 
                     }
                 }
@@ -149,7 +149,7 @@ bool cin_action(board & bd){
                 else if (att - 'A' > 3 || att - 'A' < 0){
                     cout << "no player names" << att << endl;
                 } 
-                else if (!bd.pl[att - 'A'].isAlive){
+                else if (!pl[att - 'A'].isAlive){
                     cout << "target has already died" << endl;
                 }
                 else if (type.count(wea) == 0){
@@ -160,7 +160,7 @@ bool cin_action(board & bd){
                 }
                 else{// success attack
                     int lv = p.checkLevel(type[wea]);
-                    player & tar = bd.pl[att - 'A'];
+                    player & tar = pl[att - 'A'];
                     vector<weapon>::iterator t;
                     for (t = p.wp.begin(); t != p.wp.end(); t++) {
                         if (t->type == type[wea] && t->lv == lv)
@@ -185,12 +185,12 @@ bool cin_action(board & bd){
             }
             int home_num;
             for (int j = 0; j < 4; j++){ // find which home
-                if (bd.hm[j].pos[0] == p.pos[0]&& bd.hm[j].pos[1] == p.pos[1]){
+                if (hm[j].pos[0] == p.pos[0]&& hm[j].pos[1] == p.pos[1]){
                     home_num = j;
                     break;
                 }
             }
-            if (bd.hm[home_num].master != i){
+            if (hm[home_num].master != i){
                 cout << "not your home, first invade it" << endl;
                 continue;
             }
@@ -208,7 +208,7 @@ bool cin_action(board & bd){
             }
             set<int> myhome; int num = 0;
             for (int j = 0; j < 4; j++){ // find which home
-                if (bd.hm[j].master == i){
+                if (hm[j].master == i){
                     myhome.insert(j);
                     num++;
                 }
@@ -229,14 +229,14 @@ bool cin_action(board & bd){
                     }
                     p.mg.erase(t);
                     cout << (char)('A' + i) << " moves to home" << num << endl; 
-                    p.pos[0] = bd.hm[num].pos[0]; p.pos[1] = bd.hm[num].pos[1];
+                    p.pos[0] = hm[num].pos[0]; p.pos[1] = hm[num].pos[1];
                 }
                 else
                     cout << "illegal move" << endl;
             }
         }
         else if (action == "save"){
-            bd.saveboard();
+            saveboard();
             cout << "quit or not. 0 for quit" << endl;
             int q;
             cin >> q;
@@ -251,10 +251,10 @@ bool cin_action(board & bd){
     return 0;
 }
 
-bool judge_end(board & bd){
+bool board:: judge_end(){
     int i, num = 0, last;
-    for (i = 0; i < bd.player_num; i++){
-        if (bd.pl[i].isAlive){
+    for (i = 0; i < player_num; i++){
+        if (pl[i].isAlive){
             num++;
             last = i;
         }
@@ -294,8 +294,8 @@ void play()
     }
     while(1){
         bd.print();
-        bool l1 = cin_action(bd);
-        bool l2 = judge_end(bd);
+        bool l1 = bd.cin_action();
+        bool l2 = bd.judge_end();
         if (l1 || l2){
             cout << "再来一盘? (0退出)" << endl;
             int judge;
