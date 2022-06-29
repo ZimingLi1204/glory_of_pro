@@ -211,17 +211,17 @@ class player{
     void attack(player & target, const weapon & arm) {
         // 攻击成功
         if (attackJudge(target, arm)) {
+            weapon * a; fist f; gun g(arm.lv); sword s(arm.lv);
             // fist attack
             if (arm.type == 0)
-                fist().attack(target.hp);
+                *a = f;
             // sword attack
-            else if (arm.type == 1) {
-                sword(arm.lv).attack(target.hp);
-            }
+            else if (arm.type == 1) 
+                *a = g;
             // gun attack
-            else if (arm.type == 2) {
-                gun(arm.lv).attack(target.hp);
-            }
+            else if (arm.type == 2) 
+                *a = s;
+            a -> attack(target.hp);
             cout << (char)('A' + id) << " attack " << (char)('A' + target.id) << " with " << type_weapon[arm.type] << endl;
             // 死人判定
             if (target.hp <= 0) {
@@ -248,7 +248,7 @@ class bigshop : public shop{
 public: 
     bigshop(int x, int y, int s = 2) : shop(x, y, s){}
     bigshop() {size = 2;}
-    void showprice(player & p){
+    virtual void showprice(player & p){
         cout << "                sword    gun    wing    blood    tp " << endl;
         string sout;
         for (int i = 1; i <= 3; i++){
@@ -278,7 +278,7 @@ class smallshop : public shop{
 public:
     smallshop(int x, int y, int s = 1) : shop(x, y, s){}
     smallshop() {size = 1;}
-    void showprice(player & p){
+    virtual void showprice(player & p){
         cout << "                sword    gun    wing    blood    tp " << endl;
         string sout;
         for (int i = 1; i <= 3; i++){

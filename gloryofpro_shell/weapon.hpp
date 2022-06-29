@@ -1,6 +1,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include<string>
+#include<iostream>
 using namespace std;
 
 class Dice //投6面骰子
@@ -26,6 +27,7 @@ public:
     weapon(double level) {
         lv = level;
     }
+    virtual void attack(int & targetHp){cout << "virtual" << endl;}
 };
 
 class fist: public weapon{
@@ -36,7 +38,7 @@ public:
         range = 0;
     }
 
-    void attack(int & targetHp) {
+    virtual void attack(int & targetHp) {
         targetHp -= atk;
     }
 };
@@ -60,7 +62,7 @@ public:
         }
     }
 
-    void attack(int & targetHp) {
+    virtual void attack(int & targetHp) {
         if (lv == 1)
             targetHp -= atk;
         else if (lv == 2) {
@@ -104,7 +106,7 @@ public:
         }
     }
 
-    void attack(int & targetHp) {
+    virtual void attack(int & targetHp) {
         if (lv == 1) {
             // 50% 1伤害; 50% 0伤害
             if (Dice(1).result >= 4)
