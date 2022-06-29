@@ -252,7 +252,7 @@ public:
             else if (arm.type == 2) {
                 gun(arm.lv).attack(target.hp);
             }
-            qDebug() << (char)('A' + id) << " attacked " << (char)('A' + target.id) << "\n";
+            qDebug() << (char)('A' + id) << " attacked " << (char)('A' + target.id) << " and cause " << "\n";
             //ui.on_lineEdit_textChanged();
             // 死人判定
             if (target.hp <= 0) {

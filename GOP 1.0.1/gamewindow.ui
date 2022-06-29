@@ -306,7 +306,7 @@
     <widget class="QLabel" name="num_tp_0">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -623,7 +623,7 @@
     <widget class="QLabel" name="num_tp_1">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -940,7 +940,7 @@
     <widget class="QLabel" name="num_tp_2">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -1257,7 +1257,7 @@
     <widget class="QLabel" name="num_tp_3">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>180</x>
        <y>70</y>
        <width>50</width>
        <height>30</height>
@@ -1521,6 +1521,32 @@
      </property>
      <property name="text">
       <string>攻击</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveGame">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>210</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>储存游戏</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="returnMainWindow">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回主页</string>
      </property>
     </widget>
    </widget>

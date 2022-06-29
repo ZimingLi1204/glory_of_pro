@@ -18,6 +18,7 @@ SOURCES += \
     mainwidget.cpp \
     mousepos.cpp \
     movewidget.cpp \
+    rule.cpp \
     tpwidget.cpp \
     weapon.cpp
 
@@ -29,6 +30,7 @@ HEADERS += \
     mainwidget.h \
     mousepos.h \
     movewidget.h \
+    rule.h \
     tpwidget.h
 
 FORMS += \
@@ -37,6 +39,7 @@ FORMS += \
     gamewindow.ui \
     mainwidget.ui \
     movewidget.ui \
+    rule.ui \
     tpwidget.ui
 
 # Default rules for deployment.

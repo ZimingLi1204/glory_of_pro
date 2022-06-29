@@ -357,9 +357,10 @@ release/moc_attackwidget.cpp: attackwidget.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include attackwidget.h -o release\moc_attackwidget.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include attackwidget.h -o release\moc_attackwidget.cpp
 
 release/moc_endgamewidget.cpp: endgamewidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -496,7 +497,7 @@ release/moc_endgamewidget.cpp: endgamewidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include endgamewidget.h -o release\moc_endgamewidget.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include endgamewidget.h -o release\moc_endgamewidget.cpp
 
 release/moc_gamewindow.cpp: gamewindow.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -641,6 +642,7 @@ release/moc_gamewindow.cpp: gamewindow.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -649,9 +651,17 @@ release/moc_gamewindow.cpp: gamewindow.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPaintEvent \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include gamewindow.h -o release\moc_gamewindow.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include gamewindow.h -o release\moc_gamewindow.cpp
 
 release/moc_mainwidget.cpp: mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -797,6 +807,7 @@ release/moc_mainwidget.cpp: mainwidget.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -805,9 +816,17 @@ release/moc_mainwidget.cpp: mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPaintEvent \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include mainwidget.h -o release\moc_mainwidget.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include mainwidget.h -o release\moc_mainwidget.cpp
 
 release/moc_mousepos.cpp: mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -950,7 +969,7 @@ release/moc_mousepos.cpp: mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include mousepos.h -o release\moc_mousepos.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include mousepos.h -o release\moc_mousepos.cpp
 
 release/moc_movewidget.cpp: movewidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -1087,7 +1106,7 @@ release/moc_movewidget.cpp: movewidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include movewidget.h -o release\moc_movewidget.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include movewidget.h -o release\moc_movewidget.cpp
 
 release/moc_tpwidget.cpp: tpwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QWidget \
@@ -1227,7 +1246,7 @@ release/moc_tpwidget.cpp: tpwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractbutton.h \
 		release/moc_predefs.h \
 		C:/Qt/6.3.0/mingw_64/bin/moc.exe
-	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include E:/QTproject/GOP/release/moc_predefs.h -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -IE:/QTproject/GOP -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include tpwidget.h -o release\moc_tpwidget.cpp
+	C:\Qt\6.3.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1/release/moc_predefs.h" -IC:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -I"C:/Users/mille/Desktop/glory_of_pro/GOP 1.0.1" -IC:/Qt/6.3.0/mingw_64/include -IC:/Qt/6.3.0/mingw_64/include/QtWidgets -IC:/Qt/6.3.0/mingw_64/include/QtGui -IC:/Qt/6.3.0/mingw_64/include/QtCore -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include tpwidget.h -o release\moc_tpwidget.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1550,6 +1569,7 @@ release/attackwidget.o: attackwidget.cpp attackwidget.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		ui_attackwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QApplication \
@@ -1884,6 +1904,7 @@ release/gamewindow.o: gamewindow.cpp gamewindow.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -1892,6 +1913,14 @@ release/gamewindow.o: gamewindow.cpp gamewindow.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPaintEvent \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
 		ui_gamewindow.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QApplication \
@@ -1925,18 +1954,16 @@ release/gamewindow.o: gamewindow.cpp gamewindow.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QSpacerItem \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QStackedWidget \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qstackedwidget.h \
-		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
-		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
-		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
-		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPainter \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qpainter.h \
-		C:/Qt/6.3.0/mingw_64/include/QtCore/QString
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QString \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDateTime \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/qcalendar.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\gamewindow.o gamewindow.cpp
 
 release/main.o: main.cpp mainwidget.h \
@@ -2083,6 +2110,7 @@ release/main.o: main.cpp mainwidget.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2091,6 +2119,14 @@ release/main.o: main.cpp mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPaintEvent \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/qcoreapplication.h \
@@ -2258,6 +2294,7 @@ release/mainwidget.o: mainwidget.cpp mainwidget.h \
 		big_class.h \
 		magic.cpp \
 		weapon.cpp \
+		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug \
 		mousepos.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2266,6 +2303,14 @@ release/mainwidget.o: mainwidget.cpp mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QMouseEvent \
 		C:/Qt/6.3.0/mingw_64/include/QtGui/QPaintEvent \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.3.0/mingw_64/include/QtGui/qpen.h \
 		ui_mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/QApplication \
@@ -2300,8 +2345,7 @@ release/mainwidget.o: mainwidget.cpp mainwidget.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qboxlayout.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlayout.h \
 		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/6.3.0/mingw_64/include/QtCore/QDebug
+		C:/Qt/6.3.0/mingw_64/include/QtWidgets/qgridlayout.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwidget.o mainwidget.cpp
 
 release/mousepos.o: mousepos.cpp mousepos.h \

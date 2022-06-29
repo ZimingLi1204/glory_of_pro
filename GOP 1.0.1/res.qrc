@@ -75,4 +75,7 @@
         <file>Shop/shop4.png</file>
         <file>Shop/shop5.png</file>
     </qresource>
+    <qresource prefix="/rule">
+        <file>rule.txt</file>
+    </qresource>
 </RCC>

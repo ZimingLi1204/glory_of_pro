@@ -13,6 +13,7 @@ mainWidget::mainWidget(QWidget *parent)
     ui->setupUi(this);
 
     this->setFixedSize(800, 600);
+    this->setWindowTitle("开始界面");
 
     //人数选择
     ui->player_num->setRange(2, 4);
@@ -22,6 +23,8 @@ mainWidget::mainWidget(QWidget *parent)
         qDebug() << "开始游戏\n";
         this->hide();
         gameWindow->show();
+        gameWindow->bd = board(ui->player_num->value());
+        qDebug() << gameWindow->bd.player_num;
         gameWindow->GameWindow::setPlayerNum(ui->player_num->value());
         gameWindow->startANewRoll();
         gameWindow->updatePlayerInfo();
@@ -30,13 +33,27 @@ mainWidget::mainWidget(QWidget *parent)
     //连接“读取存档”按钮
     connect(ui->readGameBtn, &QPushButton::clicked, [=](){
         qDebug() << "读取存档";
+        int tmpNum;
+        ifstream fin("board.txt");
+        fin >> tmpNum;
+        gameWindow->bd.player_num = tmpNum;
+        gameWindow->bd.readboard(fin);
+        gameWindow->GameWindow::setPlayerNum(tmpNum);
+        this->hide();
+        gameWindow->show();
+        gameWindow->startANewRoll();
+        gameWindow->updatePlayerInfo();
 
     });
 
+    connect(this->gameWindow, &GameWindow::openMainWidget, this, &QWidget::show);
+
+    rule = new Rule();
+
     //连接“规则介绍”按钮
     connect(ui->rulesIntro, &QPushButton::clicked, [=](){
-        qDebug() << "打开规则介绍";
-
+        //qDebug() << "打开规则介绍";
+        rule->show();
     });
 
     //连接“退出游戏”按钮
@@ -52,4 +69,3 @@ mainWidget::~mainWidget()
 {
     delete ui;
 }
-

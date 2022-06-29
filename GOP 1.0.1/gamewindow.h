@@ -101,6 +101,7 @@ signals:
     //自定义信号，关闭游戏界面
     void GameWindowClose();
     void endGameSignal();
+    void openMainWidget();
 
 
 private:

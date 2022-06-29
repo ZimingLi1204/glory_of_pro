@@ -111,6 +111,8 @@ public:
     QPushButton *heal;
     QPushButton *tp;
     QPushButton *attack;
+    QPushButton *saveGame;
+    QPushButton *returnMainWindow;
     QStackedWidget *map;
     QWidget *main;
     QWidget *move_interface;
@@ -203,7 +205,7 @@ public:
         lv_wing_0->setFont(font);
         num_tp_0 = new QLabel(playerInfo_0);
         num_tp_0->setObjectName(QString::fromUtf8("num_tp_0"));
-        num_tp_0->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_0->setGeometry(QRect(180, 70, 50, 30));
         num_tp_0->setFont(font);
         home_0 = new QLabel(playerInfo_0);
         home_0->setObjectName(QString::fromUtf8("home_0"));
@@ -270,7 +272,7 @@ public:
         lv_wing_1->setFont(font);
         num_tp_1 = new QLabel(playerInfo_1);
         num_tp_1->setObjectName(QString::fromUtf8("num_tp_1"));
-        num_tp_1->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_1->setGeometry(QRect(180, 70, 50, 30));
         num_tp_1->setFont(font);
         home_1 = new QLabel(playerInfo_1);
         home_1->setObjectName(QString::fromUtf8("home_1"));
@@ -337,7 +339,7 @@ public:
         lv_wing_2->setFont(font);
         num_tp_2 = new QLabel(playerInfo_2);
         num_tp_2->setObjectName(QString::fromUtf8("num_tp_2"));
-        num_tp_2->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_2->setGeometry(QRect(180, 70, 50, 30));
         num_tp_2->setFont(font);
         home_2 = new QLabel(playerInfo_2);
         home_2->setObjectName(QString::fromUtf8("home_2"));
@@ -404,7 +406,7 @@ public:
         lv_wing_3->setFont(font);
         num_tp_3 = new QLabel(playerInfo_3);
         num_tp_3->setObjectName(QString::fromUtf8("num_tp_3"));
-        num_tp_3->setGeometry(QRect(190, 70, 50, 30));
+        num_tp_3->setGeometry(QRect(180, 70, 50, 30));
         num_tp_3->setFont(font);
         home_3 = new QLabel(playerInfo_3);
         home_3->setObjectName(QString::fromUtf8("home_3"));
@@ -478,6 +480,12 @@ public:
         attack->setObjectName(QString::fromUtf8("attack"));
         attack->setGeometry(QRect(220, 20, 80, 29));
         attack->setFont(font2);
+        saveGame = new QPushButton(groupBox_2);
+        saveGame->setObjectName(QString::fromUtf8("saveGame"));
+        saveGame->setGeometry(QRect(80, 210, 80, 18));
+        returnMainWindow = new QPushButton(groupBox_2);
+        returnMainWindow->setObjectName(QString::fromUtf8("returnMainWindow"));
+        returnMainWindow->setGeometry(QRect(220, 210, 80, 18));
         map = new QStackedWidget(GameWindow);
         map->setObjectName(QString::fromUtf8("map"));
         map->setGeometry(QRect(0, 150, 450, 450));
@@ -640,6 +648,8 @@ public:
         heal->setText(QCoreApplication::translate("GameWindow", "\346\262\273\347\226\227", nullptr));
         tp->setText(QCoreApplication::translate("GameWindow", "\345\233\236\345\237\216", nullptr));
         attack->setText(QCoreApplication::translate("GameWindow", "\346\224\273\345\207\273", nullptr));
+        saveGame->setText(QCoreApplication::translate("GameWindow", "\345\202\250\345\255\230\346\270\270\346\210\217", nullptr));
+        returnMainWindow->setText(QCoreApplication::translate("GameWindow", "\350\277\224\345\233\236\344\270\273\351\241\265", nullptr));
         move_leave->setText(QCoreApplication::translate("GameWindow", "\347\246\273\345\274\200", nullptr));
         Mouse->setText(QString());
         buyPlayer->setText(QCoreApplication::translate("GameWindow", "TextLabel", nullptr));
