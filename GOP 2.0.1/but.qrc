@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/buttons">
+        <file>Buttons/Playerchoose.png</file>
+    </qresource>
+</RCC>

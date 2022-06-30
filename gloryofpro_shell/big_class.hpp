@@ -208,20 +208,24 @@ class player{
         return attackerNum * arm.lv >= targetNum;
     }
 
-    void attack(player & target, const weapon & arm) {
+    void attack(player & target, weapon & arm) {
         // 攻击成功
         if (attackJudge(target, arm)) {
-            weapon * a; fist f; gun g(arm.lv); sword s(arm.lv);
             // fist attack
-            if (arm.type == 0)
-                *a = f;
+            if (arm.type == 0){
+                 fist f;
+                 f.attack(target.hp);
+            }
             // sword attack
-            else if (arm.type == 1) 
-                *a = g;
+            else if (arm.type == 1) {
+                gun g(arm.lv);
+                g.attack(target.hp);
+            }
             // gun attack
-            else if (arm.type == 2) 
-                *a = s;
-            a -> attack(target.hp);
+            else if (arm.type == 2) {
+                sword s(arm.lv);
+                s.attack(target.hp);
+            }  
             cout << (char)('A' + id) << " attack " << (char)('A' + target.id) << " with " << type_weapon[arm.type] << endl;
             // 死人判定
             if (target.hp <= 0) {
