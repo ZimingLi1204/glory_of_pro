@@ -105,11 +105,13 @@ public:
     QLabel *currPlayer;
     QSpacerItem *horizontalSpacer_2;
     QGroupBox *groupBox_2;
+    QPushButton *tp;
+    QPushButton *returnMainWindow;
+    QPushButton *heal;
     QPushButton *move;
     QPushButton *mine;
+    QPushButton *saveGame;
     QPushButton *buy;
-    QPushButton *heal;
-    QPushButton *tp;
     QPushButton *attack;
     QStackedWidget *map;
     QWidget *main;
@@ -121,7 +123,6 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QSpacerItem *horizontalSpacer_3;
     QLabel *buyPlayer;
-    QSpacerItem *horizontalSpacer_6;
     QSpacerItem *horizontalSpacer_5;
     QLabel *curMoney;
     QSpacerItem *horizontalSpacer_4;
@@ -136,6 +137,8 @@ public:
         if (GameWindow->objectName().isEmpty())
             GameWindow->setObjectName(QString::fromUtf8("GameWindow"));
         GameWindow->resize(800, 600);
+        GameWindow->setMinimumSize(QSize(800, 600));
+        GameWindow->setMaximumSize(QSize(800, 600));
         playerInfo = new QGroupBox(GameWindow);
         playerInfo->setObjectName(QString::fromUtf8("playerInfo"));
         playerInfo->setGeometry(QRect(0, 0, 800, 150));
@@ -452,32 +455,43 @@ public:
         groupBox_2 = new QGroupBox(actionGroup);
         groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
         groupBox_2->setGeometry(QRect(-3, 58, 351, 241));
-        move = new QPushButton(groupBox_2);
-        move->setObjectName(QString::fromUtf8("move"));
-        move->setGeometry(QRect(80, 20, 80, 29));
-        QFont font2;
-        font2.setPointSize(18);
-        move->setFont(font2);
-        mine = new QPushButton(groupBox_2);
-        mine->setObjectName(QString::fromUtf8("mine"));
-        mine->setGeometry(QRect(80, 90, 80, 29));
-        mine->setFont(font2);
-        buy = new QPushButton(groupBox_2);
-        buy->setObjectName(QString::fromUtf8("buy"));
-        buy->setGeometry(QRect(80, 160, 80, 29));
-        buy->setFont(font2);
-        heal = new QPushButton(groupBox_2);
-        heal->setObjectName(QString::fromUtf8("heal"));
-        heal->setGeometry(QRect(220, 90, 80, 29));
-        heal->setFont(font2);
         tp = new QPushButton(groupBox_2);
         tp->setObjectName(QString::fromUtf8("tp"));
-        tp->setGeometry(QRect(220, 160, 80, 29));
+        tp->setGeometry(QRect(184, 126, 149, 38));
+        QFont font2;
+        font2.setPointSize(18);
         tp->setFont(font2);
+        returnMainWindow = new QPushButton(groupBox_2);
+        returnMainWindow->setObjectName(QString::fromUtf8("returnMainWindow"));
+        returnMainWindow->setGeometry(QRect(184, 175, 149, 38));
+        returnMainWindow->setFont(font2);
+        heal = new QPushButton(groupBox_2);
+        heal->setObjectName(QString::fromUtf8("heal"));
+        heal->setGeometry(QRect(184, 77, 149, 38));
+        heal->setFont(font2);
+        move = new QPushButton(groupBox_2);
+        move->setObjectName(QString::fromUtf8("move"));
+        move->setGeometry(QRect(22, 28, 149, 38));
+        move->setMinimumSize(QSize(142, 0));
+        move->setFont(font2);
+        move->setAutoDefault(false);
+        mine = new QPushButton(groupBox_2);
+        mine->setObjectName(QString::fromUtf8("mine"));
+        mine->setGeometry(QRect(22, 77, 149, 38));
+        mine->setFont(font2);
+        saveGame = new QPushButton(groupBox_2);
+        saveGame->setObjectName(QString::fromUtf8("saveGame"));
+        saveGame->setGeometry(QRect(22, 175, 149, 38));
+        saveGame->setFont(font2);
+        buy = new QPushButton(groupBox_2);
+        buy->setObjectName(QString::fromUtf8("buy"));
+        buy->setGeometry(QRect(22, 126, 149, 38));
+        buy->setFont(font2);
         attack = new QPushButton(groupBox_2);
         attack->setObjectName(QString::fromUtf8("attack"));
-        attack->setGeometry(QRect(220, 20, 80, 29));
+        attack->setGeometry(QRect(184, 28, 149, 38));
         attack->setFont(font2);
+        attack->setAutoFillBackground(false);
         map = new QStackedWidget(GameWindow);
         map->setObjectName(QString::fromUtf8("map"));
         map->setGeometry(QRect(0, 150, 450, 450));
@@ -497,7 +511,7 @@ public:
         Mouse->setGeometry(QRect(0, 0, 450, 450));
         layoutWidget = new QWidget(buy_interface);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(20, 20, 411, 22));
+        layoutWidget->setGeometry(QRect(20, 60, 411, 22));
         horizontalLayout_2 = new QHBoxLayout(layoutWidget);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -509,10 +523,6 @@ public:
         buyPlayer->setObjectName(QString::fromUtf8("buyPlayer"));
 
         horizontalLayout_2->addWidget(buyPlayer);
-
-        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_2->addItem(horizontalSpacer_6);
 
         horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -529,7 +539,7 @@ public:
 
         layoutWidget1 = new QWidget(buy_interface);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(19, 390, 411, 32));
+        layoutWidget1->setGeometry(QRect(20, 370, 411, 32));
         horizontalLayout_3 = new QHBoxLayout(layoutWidget1);
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -634,12 +644,14 @@ public:
         label->setText(QCoreApplication::translate("GameWindow", "\345\275\223\345\211\215\347\216\251\345\256\266\357\274\232", nullptr));
         currPlayer->setText(QCoreApplication::translate("GameWindow", "\345\215\242\346\234\254\344\274\237", nullptr));
         groupBox_2->setTitle(QString());
-        move->setText(QCoreApplication::translate("GameWindow", "\347\247\273\345\212\250", nullptr));
-        mine->setText(QCoreApplication::translate("GameWindow", "\346\214\226\347\237\277", nullptr));
-        buy->setText(QCoreApplication::translate("GameWindow", "\350\264\255\347\211\251", nullptr));
-        heal->setText(QCoreApplication::translate("GameWindow", "\346\262\273\347\226\227", nullptr));
-        tp->setText(QCoreApplication::translate("GameWindow", "\345\233\236\345\237\216", nullptr));
-        attack->setText(QCoreApplication::translate("GameWindow", "\346\224\273\345\207\273", nullptr));
+        tp->setText(QString());
+        returnMainWindow->setText(QString());
+        heal->setText(QString());
+        move->setText(QString());
+        mine->setText(QString());
+        saveGame->setText(QString());
+        buy->setText(QString());
+        attack->setText(QString());
         move_leave->setText(QCoreApplication::translate("GameWindow", "\347\246\273\345\274\200", nullptr));
         Mouse->setText(QString());
         buyPlayer->setText(QCoreApplication::translate("GameWindow", "TextLabel", nullptr));

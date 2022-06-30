@@ -11,8 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -22,70 +24,130 @@ QT_BEGIN_NAMESPACE
 class Ui_mainWidget
 {
 public:
-    QGroupBox *groupBox;
+    QWidget *widget;
     QVBoxLayout *verticalLayout;
+    QHBoxLayout *horizontalLayout;
+    QLabel *label;
+    QSpacerItem *horizontalSpacer;
+    QSpinBox *player_num;
+    QSpacerItem *horizontalSpacer_2;
+    QHBoxLayout *horizontalLayout_2;
     QPushButton *newGameBtn;
     QPushButton *readGameBtn;
+    QHBoxLayout *horizontalLayout_3;
     QPushButton *rulesIntro;
     QPushButton *exitGame;
-    QSpinBox *player_num;
 
     void setupUi(QWidget *mainWidget)
     {
         if (mainWidget->objectName().isEmpty())
             mainWidget->setObjectName(QString::fromUtf8("mainWidget"));
         mainWidget->resize(800, 600);
-        groupBox = new QGroupBox(mainWidget);
-        groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setEnabled(true);
-        groupBox->setGeometry(QRect(300, 56, 177, 351));
-        groupBox->setFlat(false);
-        verticalLayout = new QVBoxLayout(groupBox);
+        widget = new QWidget(mainWidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(230, 300, 302, 225));
+        verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(6, -1, -1, -1);
-        newGameBtn = new QPushButton(groupBox);
-        newGameBtn->setObjectName(QString::fromUtf8("newGameBtn"));
-        newGameBtn->setEnabled(true);
-        QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Fixed);
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        label = new QLabel(widget);
+        label->setObjectName(QString::fromUtf8("label"));
+        QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(newGameBtn->sizePolicy().hasHeightForWidth());
-        newGameBtn->setSizePolicy(sizePolicy);
+        sizePolicy.setHeightForWidth(label->sizePolicy().hasHeightForWidth());
+        label->setSizePolicy(sizePolicy);
+        label->setMinimumSize(QSize(142, 67));
+        label->setMaximumSize(QSize(142, 67));
         QFont font;
         font.setPointSize(25);
-        font.setBold(true);
-        font.setItalic(false);
-        font.setUnderline(false);
-        font.setStrikeOut(false);
-        newGameBtn->setFont(font);
-        newGameBtn->setIconSize(QSize(12, 12));
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
 
-        verticalLayout->addWidget(newGameBtn);
+        horizontalLayout->addWidget(label);
 
-        readGameBtn = new QPushButton(groupBox);
-        readGameBtn->setObjectName(QString::fromUtf8("readGameBtn"));
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
+        player_num = new QSpinBox(widget);
+        player_num->setObjectName(QString::fromUtf8("player_num"));
+        player_num->setMinimumSize(QSize(90, 30));
+        player_num->setMaximumSize(QSize(90, 30));
+        player_num->setFont(font);
+        player_num->setWrapping(true);
+        player_num->setButtonSymbols(QAbstractSpinBox::UpDownArrows);
+
+        horizontalLayout->addWidget(player_num);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+
+        verticalLayout->addLayout(horizontalLayout);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        newGameBtn = new QPushButton(widget);
+        newGameBtn->setObjectName(QString::fromUtf8("newGameBtn"));
+        newGameBtn->setEnabled(true);
+        QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(newGameBtn->sizePolicy().hasHeightForWidth());
+        newGameBtn->setSizePolicy(sizePolicy1);
+        newGameBtn->setMinimumSize(QSize(142, 67));
+        newGameBtn->setMaximumSize(QSize(142, 67));
         QFont font1;
         font1.setPointSize(25);
         font1.setBold(true);
-        readGameBtn->setFont(font1);
+        font1.setItalic(false);
+        font1.setUnderline(false);
+        font1.setStrikeOut(false);
+        newGameBtn->setFont(font1);
+        newGameBtn->setIconSize(QSize(12, 12));
 
-        verticalLayout->addWidget(readGameBtn);
+        horizontalLayout_2->addWidget(newGameBtn);
 
-        rulesIntro = new QPushButton(groupBox);
+        readGameBtn = new QPushButton(widget);
+        readGameBtn->setObjectName(QString::fromUtf8("readGameBtn"));
+        readGameBtn->setMinimumSize(QSize(142, 67));
+        readGameBtn->setMaximumSize(QSize(142, 67));
+        QFont font2;
+        font2.setPointSize(25);
+        font2.setBold(true);
+        readGameBtn->setFont(font2);
+
+        horizontalLayout_2->addWidget(readGameBtn);
+
+
+        verticalLayout->addLayout(horizontalLayout_2);
+
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
+        rulesIntro = new QPushButton(widget);
         rulesIntro->setObjectName(QString::fromUtf8("rulesIntro"));
-        rulesIntro->setFont(font1);
+        sizePolicy.setHeightForWidth(rulesIntro->sizePolicy().hasHeightForWidth());
+        rulesIntro->setSizePolicy(sizePolicy);
+        rulesIntro->setMinimumSize(QSize(142, 67));
+        rulesIntro->setMaximumSize(QSize(142, 67));
+        rulesIntro->setFont(font2);
 
-        verticalLayout->addWidget(rulesIntro);
+        horizontalLayout_3->addWidget(rulesIntro);
 
-        exitGame = new QPushButton(groupBox);
+        exitGame = new QPushButton(widget);
         exitGame->setObjectName(QString::fromUtf8("exitGame"));
-        exitGame->setFont(font1);
+        exitGame->setMinimumSize(QSize(142, 67));
+        exitGame->setMaximumSize(QSize(142, 67));
+        exitGame->setFont(font2);
 
-        verticalLayout->addWidget(exitGame);
+        horizontalLayout_3->addWidget(exitGame);
 
-        player_num = new QSpinBox(mainWidget);
-        player_num->setObjectName(QString::fromUtf8("player_num"));
-        player_num->setGeometry(QRect(480, 110, 51, 31));
+
+        verticalLayout->addLayout(horizontalLayout_3);
+
 
         retranslateUi(mainWidget);
 
@@ -95,11 +157,11 @@ public:
     void retranslateUi(QWidget *mainWidget)
     {
         mainWidget->setWindowTitle(QCoreApplication::translate("mainWidget", "mainWidget", nullptr));
-        groupBox->setTitle(QString());
-        newGameBtn->setText(QCoreApplication::translate("mainWidget", "\345\274\200\345\247\213\346\270\270\346\210\217", nullptr));
-        readGameBtn->setText(QCoreApplication::translate("mainWidget", "\350\257\273\345\217\226\345\255\230\346\241\243", nullptr));
-        rulesIntro->setText(QCoreApplication::translate("mainWidget", "\350\247\204\345\210\231\344\273\213\347\273\215", nullptr));
-        exitGame->setText(QCoreApplication::translate("mainWidget", "\351\200\200\345\207\272\346\270\270\346\210\217", nullptr));
+        label->setText(QCoreApplication::translate("mainWidget", "\344\272\272\346\225\260\351\200\211\346\213\251", nullptr));
+        newGameBtn->setText(QString());
+        readGameBtn->setText(QString());
+        rulesIntro->setText(QString());
+        exitGame->setText(QString());
     } // retranslateUi
 
 };

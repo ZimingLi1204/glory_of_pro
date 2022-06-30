@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../GOP 1.0.1/movewidget.h"
+#include "../../../../GOP 2.0.1/movewidget.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

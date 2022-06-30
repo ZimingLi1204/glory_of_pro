@@ -7,7 +7,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -29,7 +29,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -66,10 +66,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/attackwidget.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/attackwidget.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/attackwidget.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/attackwidget.cpp"
 },
 {
     "arguments": [
@@ -79,7 +79,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -101,7 +101,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -138,10 +138,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/big_class.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/big_class.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/big_class.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/big_class.cpp"
 },
 {
     "arguments": [
@@ -151,7 +151,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -173,7 +173,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -210,10 +210,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/endgamewidget.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/endgamewidget.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/endgamewidget.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/endgamewidget.cpp"
 },
 {
     "arguments": [
@@ -223,7 +223,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -245,7 +245,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -282,10 +282,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/gamewindow.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/gamewindow.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/gamewindow.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/gamewindow.cpp"
 },
 {
     "arguments": [
@@ -295,7 +295,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -317,7 +317,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -354,10 +354,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/magic.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/magic.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/magic.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/magic.cpp"
 },
 {
     "arguments": [
@@ -367,7 +367,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -389,7 +389,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -426,10 +426,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/main.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/main.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/main.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/main.cpp"
 },
 {
     "arguments": [
@@ -439,7 +439,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -461,7 +461,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -498,10 +498,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mainwidget.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mainwidget.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mainwidget.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mainwidget.cpp"
 },
 {
     "arguments": [
@@ -511,7 +511,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -533,7 +533,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -570,10 +570,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mousepos.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mousepos.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mousepos.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mousepos.cpp"
 },
 {
     "arguments": [
@@ -583,7 +583,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -605,7 +605,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -642,10 +642,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/movewidget.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/movewidget.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/movewidget.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/movewidget.cpp"
 },
 {
     "arguments": [
@@ -655,7 +655,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -677,7 +677,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -714,10 +714,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/tpwidget.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/rule.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/tpwidget.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/rule.cpp"
 },
 {
     "arguments": [
@@ -727,7 +727,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -749,7 +749,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -786,10 +786,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/weapon.cpp"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/tpwidget.cpp"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/weapon.cpp"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/tpwidget.cpp"
 },
 {
     "arguments": [
@@ -799,7 +799,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -821,7 +821,79 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtGui.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtCore.framework/Headers",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/mkspecs/macx-clang",
+        "-F",
+        "/Users/liziming/Qt/6.3.0/macos/lib",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+        "-isystem",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/libexec/clang/lib/clang/14.0.0/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++",
+        "-Wno-unknown-pragmas",
+        "-Wno-unknown-warning-option",
+        "-Wno-documentation-unknown-command",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/weapon.cpp"
+    ],
+    "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/weapon.cpp"
+},
+{
+    "arguments": [
+        "clang",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-stdlib=libc++",
+        "-g",
+        "-std=gnu++1z",
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-mmacosx-version-min=10.14",
+        "-Wall",
+        "-Wextra",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=arm64-apple-darwin21.4.0",
+        "-DQ_CREATOR_RUN",
+        "-DQT_QML_DEBUG",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_CORE_LIB",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -858,10 +930,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/attackwidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/attackwidget.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/attackwidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/attackwidget.h"
 },
 {
     "arguments": [
@@ -871,7 +943,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -893,7 +965,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -930,10 +1002,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/big_class.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/big_class.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/big_class.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/big_class.h"
 },
 {
     "arguments": [
@@ -943,7 +1015,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -965,7 +1037,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1002,10 +1074,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/endgamewidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/endgamewidget.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/endgamewidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/endgamewidget.h"
 },
 {
     "arguments": [
@@ -1015,7 +1087,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1037,7 +1109,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1074,10 +1146,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/gamewindow.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/gamewindow.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/gamewindow.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/gamewindow.h"
 },
 {
     "arguments": [
@@ -1087,7 +1159,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1109,7 +1181,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1146,10 +1218,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mainwidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mainwidget.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mainwidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mainwidget.h"
 },
 {
     "arguments": [
@@ -1159,7 +1231,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1181,7 +1253,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1218,10 +1290,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mousepos.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mousepos.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/mousepos.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/mousepos.h"
 },
 {
     "arguments": [
@@ -1231,7 +1303,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1253,7 +1325,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1290,10 +1362,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/movewidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/movewidget.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/movewidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/movewidget.h"
 },
 {
     "arguments": [
@@ -1303,7 +1375,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1325,7 +1397,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1362,10 +1434,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/tpwidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/rule.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1/tpwidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/rule.h"
 },
 {
     "arguments": [
@@ -1375,7 +1447,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1397,7 +1469,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1434,10 +1506,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_movewidget.h"
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/tpwidget.h"
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_movewidget.h"
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1/tpwidget.h"
 },
 {
     "arguments": [
@@ -1447,7 +1519,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1469,7 +1541,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1519,7 +1591,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1541,7 +1613,79 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtGui.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtCore.framework/Headers",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/mkspecs/macx-clang",
+        "-F",
+        "/Users/liziming/Qt/6.3.0/macos/lib",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+        "-isystem",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/libexec/clang/lib/clang/14.0.0/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "-Wno-unknown-pragmas",
+        "-Wno-unknown-warning-option",
+        "-Wno-documentation-unknown-command",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_gamewindow.h"
+    ],
+    "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_gamewindow.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-stdlib=libc++",
+        "-g",
+        "-std=gnu++1z",
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-mmacosx-version-min=10.14",
+        "-Wall",
+        "-Wextra",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=arm64-apple-darwin21.4.0",
+        "-DQ_CREATOR_RUN",
+        "-DQT_QML_DEBUG",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_CORE_LIB",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1591,7 +1735,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1613,7 +1757,151 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtGui.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtCore.framework/Headers",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/mkspecs/macx-clang",
+        "-F",
+        "/Users/liziming/Qt/6.3.0/macos/lib",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+        "-isystem",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/libexec/clang/lib/clang/14.0.0/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "-Wno-unknown-pragmas",
+        "-Wno-unknown-warning-option",
+        "-Wno-documentation-unknown-command",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_rule.h"
+    ],
+    "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_rule.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-stdlib=libc++",
+        "-g",
+        "-std=gnu++1z",
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-mmacosx-version-min=10.14",
+        "-Wall",
+        "-Wextra",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=arm64-apple-darwin21.4.0",
+        "-DQ_CREATOR_RUN",
+        "-DQT_QML_DEBUG",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_CORE_LIB",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtGui.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/lib/QtCore.framework/Headers",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers",
+        "-I",
+        "/Users/liziming/Qt/6.3.0/macos/mkspecs/macx-clang",
+        "-F",
+        "/Users/liziming/Qt/6.3.0/macos/lib",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+        "-isystem",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/libexec/clang/lib/clang/14.0.0/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+        "-isystem",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "-Wno-unknown-pragmas",
+        "-Wno-unknown-warning-option",
+        "-Wno-documentation-unknown-command",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_movewidget.h"
+    ],
+    "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
+    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_movewidget.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders",
+        "-I",
+        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
+        "-I",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
+        "-nostdinc",
+        "-nostdinc++",
+        "-pipe",
+        "-stdlib=libc++",
+        "-g",
+        "-std=gnu++1z",
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-mmacosx-version-min=10.14",
+        "-Wall",
+        "-Wextra",
+        "-fPIC",
+        "-fsyntax-only",
+        "-m64",
+        "--target=arm64-apple-darwin21.4.0",
+        "-DQ_CREATOR_RUN",
+        "-DQT_QML_DEBUG",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_CORE_LIB",
+        "-I",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1663,7 +1951,7 @@
         "-I",
         "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
+        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-krgzUg/clang-uiheader-XeBIDc",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -1685,7 +1973,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
+        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 2.0.1",
         "-I",
         "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
         "-I",
@@ -1726,77 +2014,5 @@
     ],
     "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
     "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_tpwidget.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-I",
-        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders",
-        "-I",
-        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/cplusplus/wrappedQtHeaders/QtCore",
-        "-I",
-        "/private/var/folders/60/yft_bxtd7lzg3srmffzpq4ww0000gn/T/QtCreator-rpuNpy/clang-uiheader-TCRcLM",
-        "-nostdinc",
-        "-nostdinc++",
-        "-pipe",
-        "-stdlib=libc++",
-        "-g",
-        "-std=gnu++1z",
-        "-isysroot",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
-        "-mmacosx-version-min=10.14",
-        "-Wall",
-        "-Wextra",
-        "-fPIC",
-        "-fsyntax-only",
-        "-m64",
-        "--target=arm64-apple-darwin21.4.0",
-        "-DQ_CREATOR_RUN",
-        "-DQT_QML_DEBUG",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_CORE_LIB",
-        "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/GOP 1.0.1",
-        "-I",
-        "/Users/liziming/Qt/6.3.0/macos/lib/QtWidgets.framework/Headers",
-        "-I",
-        "/Users/liziming/Qt/6.3.0/macos/lib/QtGui.framework/Headers",
-        "-I",
-        "/Users/liziming/Qt/6.3.0/macos/lib/QtCore.framework/Headers",
-        "-I",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
-        "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-        "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/AGL.framework/Headers",
-        "-I",
-        "/Users/liziming/Qt/6.3.0/macos/mkspecs/macx-clang",
-        "-F",
-        "/Users/liziming/Qt/6.3.0/macos/lib",
-        "-F",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
-        "-isystem",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
-        "-isystem",
-        "/Users/liziming/Desktop/Qt Creator.app/Contents/Resources/libexec/clang/lib/clang/14.0.0/include",
-        "-isystem",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
-        "-isystem",
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
-        "-fmessage-length=0",
-        "-fdiagnostics-show-note-include-stack",
-        "-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "-x",
-        "c++-header",
-        "-Wno-unknown-pragmas",
-        "-Wno-unknown-warning-option",
-        "-Wno-documentation-unknown-command",
-        "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_gamewindow.h"
-    ],
-    "directory": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.qtc_clangd",
-    "file": "/Users/liziming/Desktop/程序设计实习/大作业/glory_of_pro/build-GOP-Desktop_arm_darwin_generic_mach_o_64bit-Debug/ui_gamewindow.h"
 }
 ]

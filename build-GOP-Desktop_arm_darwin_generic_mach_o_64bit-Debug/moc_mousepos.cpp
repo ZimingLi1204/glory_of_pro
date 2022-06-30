@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../GOP 1.0.1/mousepos.h"
+#include "../../../../GOP 2.0.1/mousepos.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
