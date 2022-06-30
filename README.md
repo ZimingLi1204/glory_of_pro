@@ -2,7 +2,7 @@
 这是一份pku程序设计实习期末作业。
 我们用QT实现了WangPro同学设计的小游戏
 
-#版本介绍
+# 版本介绍
 GOP为qt版本, 可在QT creator中运行
 gloryofpro_shell/ 为c++版本, 可在普通编译器中运行main.cpp文件
 
